@@ -1,0 +1,9 @@
+part def 'Team 1';
+part def 'Team 2';
+part def 'Team 3';
+part def 'Team 4';
+
+dependency X
+ from 'Team 1' to 'Team 2';
+dependency Y
+ from 'Team 2' to 'Team 3',  'Team 4';
